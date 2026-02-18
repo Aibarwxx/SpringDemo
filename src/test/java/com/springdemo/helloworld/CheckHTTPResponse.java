@@ -2,8 +2,8 @@ package com.springdemo.helloworld;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.web.client.TestRestTemplate; // initially "correct" import for the TestRestTemplate
-// import org.springframework.boot.resttestclient.TestRestTemplate; TestRestTemplate found but autowire is not working
+
+import org.springframework.boot.test.web.client.TestRestTemplate;
 
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.server.LocalServerPort;
