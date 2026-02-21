@@ -22,4 +22,10 @@ public class CheckHTTPResponse {
         assertEquals("Hello World from Spring Boot", testRestTemplate.getForObject("http://localhost:" + port + "/",
                 String.class));
     }
+
+    @Test
+    public void checkGoodbye(){
+        assertEquals("Goodbye from Spring Boot", testRestTemplate.getForObject("http://localhost:" + port + "/goodbye",
+                String.class));
+    }
 }
